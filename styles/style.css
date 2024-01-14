@@ -1,0 +1,206 @@
+
+/* ============ work sans fornt ============ */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* ============common style part start hare ============ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+.btn-primaty{
+    border-radius: 8px;
+    color: #fff;
+    background-color: #FF900E;
+    padding: 18px 22px ;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ================common style part end hare============== */
+
+/* ---------navbar start hare -------------- */
+
+header{
+    background-color: rgba(255, 143, 14, 0.123);
+    padding: 50px 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav li a{
+    color: #424242;
+}
+
+/* ---------navbar end hare -------------- */
+
+/* ---------------banner section start hare ------------- */
+
+.banner-content{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.banner-desc{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 0;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* ---------------banner section end hare ------------- */
+
+
+/* ===============teams section start hare ================ */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.teams-content{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.teams-title .text-features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.teams-desc{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* ===============teams section end hare ================ */
+
+
+/* ------------features section start hare -----------------  */
+
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+.features-card{
+    margin: 50px 0;
+    padding-left: 20px;
+}
+.features-img img{
+    width: 400px;
+    height: 700px;
+}
+
+/* ------------features section end hare -----------------  */
+
+
+
+/* =============fact section start hare=====================  */
+
+.fact h3{
+    color:#131313 ;
+    font-size:47px ;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.fact p{
+    color:#727272 ;
+    font-size:16px ;
+    font-weight:400 ;
+    line-height: 26px;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 40px 30px;
+}
+.facts-card-container .card-stats{
+    color:#424242 ;
+    font-size: 45px;
+    font-weight: 600;
+}
+.facts-card-container .card-stats{
+    color:#727272 ;
+    font-size:20px ;
+    font-weight: 600;
+}
+
+/* =============fact section end hare=====================  */
+
+
+
+/* -------sponspors section start hare -------------- */
+
+.sponspors{
+    text-align: center;
+}
+.sponspors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 
+    40px;
+}
+.sponspors-img-container img{
+    width: 120px;
+}
+
+/* -------sponspors section end hare -------------- */

@@ -1,0 +1,63 @@
+/* ===============mobile css start hare ================ */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav h3{
+        margin-bottom: 30px;
+    }
+    .teams-container{
+        flex-direction: column;
+    }
+    
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        gap: 20px;
+    }
+    .sponspors-img-container{
+        flex-direction: column;
+    }
+    .features{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .features-img img{
+        margin-left: 20px;
+    }
+}
+
+/* ===============mobile css end hare ================ */
+
+
+/* --------------tablet or mobile device css start hare---------------- */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav h3{
+        margin-bottom: 30px;
+    }
+}
+
+.teams-container{
+    flex-direction: column;
+}
+
+
+/* --------------tablet or mobile device css end hare---------------- */
